@@ -1,0 +1,12 @@
+<?php
+    function libraries_theme($existing,$theme,$type,$path){
+        return array(
+            'libraries_page' => array(
+                'variables'=>array(
+                    'items'=>[],
+                    'title'=>''
+                )
+            )
+            );
+    }
+    ?>

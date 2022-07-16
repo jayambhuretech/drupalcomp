@@ -1,0 +1,7 @@
+name: 'Custom Utilities'
+description: This module used for Hookes Implements
+core: 8.x
+type: module
+package: Custom Module
+version: 1.0
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,10 @@
+libraries-script:
+  version: 1.x
+  js:
+    js/custom.js: {}
+
+libraries-styles:
+  version: 1.x
+  css:
+    theme:
+      css/custom.css: {}

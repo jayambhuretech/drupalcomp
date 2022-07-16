@@ -1,0 +1,7 @@
+libraries.librariesPage:
+  path: '/libraries'
+  defaults:
+    _controller: '\Drupal\libraries\Controller\librariesController::librariesPage'
+    _title: 'Libraries Page'
+  requirements:
+    _permission: 'access content'

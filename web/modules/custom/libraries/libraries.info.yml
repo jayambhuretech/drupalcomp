@@ -1,0 +1,10 @@
+name : Custom Libraries Module
+description: This module used for adding Custom CSS and JS
+core: 8.x
+type: module
+package: Custom Module
+version: 1.0
+core_version_requirement: ^8 || ^9
+libraries:
+  -libraries/libraries-scripts
+  -libraries/libraries-styles

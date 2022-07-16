@@ -1,0 +1,11 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+//This Function Hide Vertical Tab
+function utility_form_node_form_alter(&$form,FormStateInterface $from_state){
+    //Disble Menu vertical tab
+    $form['menu']['#access'] = FALSE;
+    //Disble Auther Vertical tab
+    $form['author']['#access'] = FALSE;
+}
